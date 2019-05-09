@@ -1,3 +1,5 @@
+Here is the link for article: https://www.linkedin.com/pulse/react-fetch-example-megha-kuchchal/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
