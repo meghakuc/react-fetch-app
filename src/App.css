@@ -1,0 +1,61 @@
+.outerDiv {
+  border: 1px solid rgba(0,0,0,.125);
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+}
+
+.left-col {
+  width: 20%;
+  border: 1px solid rgba(0,0,0,.125);
+  height: 99.5vh;
+}
+
+.center-col {
+  overflow: auto;
+  width: 80%;
+  border: 1px solid rgba(0,0,0,.125);
+  height: 99.5vh;
+}
+
+.right-col {
+  width: 45%;
+  border: 1px solid rgba(0,0,0,.125);
+  height: 99.5vh;
+}
+
+.row > div {
+  padding: 1rem;
+  border: 2px solid #fff;
+  text-align: center;
+}
+
+#center-div::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#center-div::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#center-div::-webkit-scrollbar-thumb
+{
+	background-color: #F5F5F5;
+	border-radius: 10px;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(0, 0, 0, .2) 50%,
+											  rgba(0, 0, 0, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
